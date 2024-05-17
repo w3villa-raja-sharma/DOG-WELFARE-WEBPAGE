@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
+  body {
+    background-image:url(../img/bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+  }
+  
+  .logo {
+    font-size: 32px;
+    font-weight: 800;
+    font-family: "Trebuchet MS", sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+  }
+  
+  .nav-container {
+    display: flex;
+    align-items: center;
+  }
+  .nav-container nav ul {
+    display: flex;
+  }
+  .nav-container nav li {
+    margin-right: 20px;
+  }
+  .nav-container nav a {
+    font-size: 1.2rem;
+    color: #00d1ff;
+  }
+  
+  .button {
+    background-color: rgba(119, 238, 232, 0.6588235294);
+    padding: 8px 10px;
+    color: #ffffff !important;
+    border-radius: 5px;
+  }
+  
+  /* Hero */
+  .hero {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Hero Left */
+    /* Hero Right */
+  }
+  .hero-left {
+    width: 50%;
+    padding: 40px;
+  }
+  .hero-left h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+  .hero-left span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+  }
+  .hero-left p {
+    inline-size: 450px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .hero-left .btns-button {
+    background-color: #c0a24f;
+    margin-right: 20px;
+    padding: 8px 20px;
+    border-radius: 5px;
+  }
+  .hero-left .btns a {
+    font-size: 1.1rem;
+    color: #ffffff;
+  }
+  .hero-right {
+    width: 50%;
+    padding: 5px;
+  }
+  .hero-right .right-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .hero-right .right-top .scroll1 {
+    display: flex;
+    width: 600px;
+    height: 500px;
+  }
+  .hero-right .right-top .rtop-img {
+    width: 80%;
+    height: 450px;
+    border-radius: 15px;
+    opacity: 0.8;
+  }
+  .hero-right .right-top .soc-icons {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(119, 238, 232, 0.6588235294);
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 40px;
+  }
+  .hero-right .right-top .soc-icons img {
+    width: 32px;
+    padding: 10px;
+  }

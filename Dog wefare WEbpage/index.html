@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dog Welfare</title>
+  <link rel="stylesheet" href="./sass/main.css" />
+
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+  <!-- Add the new slick-theme.css if you want the default styling -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+</head>
+
+<body>
+  <header>
+    <!-- NAVIGATION MENU -->
+    <div class="navbar">
+      <div class="logo">DOG WELFARE</div>
+      <div class="nav-container">
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <a href="#" class="button">Sign In</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <!-- Hero Left -->
+    <div class="hero-left">
+      <h1>The DOG COMMUNITY.</h1>
+      <span></span>
+      <h3>When we interact with dogs, our oxytocin levels shoot up.</h3>
+      <p>
+        It is likely that human and Dogs have shared a special bond of friendship and mutual support ever since at least the Neolithic 
+        period-but Why has this bondbeen so long-lasting?
+      </p>
+      <div class="btns">
+        <a href="#" class="btns-button">xyz</a>
+        <a href="#">Read More...</a>
+      </div>
+    </div>
+
+    <!-- Hero Right -->
+    <div class="hero-right">
+      <div class="right-top">
+
+
+        <div class="scroll1">
+          <div><img src="img/a.jpeg" alt="noimage" class="rtop-img" /></div>
+          <div><img src="img/b.webp" alt="noimage" class="rtop-img" /></div>
+          <div><img src="img/c.png" alt="noimage" class="rtop-img" /></div>
+          <div><img src="img/d.jpeg" alt="noimage" class="rtop-img" /></div>
+        </div>
+
+        <div class="soc-icons">
+          <img src="img/y.webp" alt="#" />
+          <img src="img/f.jpg" alt="#" />
+          <img src="img/t.jpeg" alt="#" />
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script>
+    $(document).ready(function () {
+      $('.scroll1').slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        swipe: true,
+        arrows: false,
+        autoplaySpeed: 1000,
+      });
+    });
+  </script>
+</body>
+
+</html>
